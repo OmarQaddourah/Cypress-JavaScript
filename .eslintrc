@@ -1,0 +1,27 @@
+{
+	"root": true,
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true,
+		"node": true,
+		"mocha": true
+	},
+	"rules": {
+		"indent": ["error", "tab", {"SwitchCase": 1}],
+		"max-len": ["error", {"code": 140, "ignoreStrings": true, "ignoreTemplateLiterals": true}],
+		"no-console": 0,
+		"no-param-reassign": "off",
+		"no-plusplus": "off",
+		"no-tabs": "off",
+		"prefer-destructuring": ["error", {"object": true, "array": false}]
+	},
+	"extends": "airbnb",
+	"globals": {
+		"$clamp": true,
+		"expect": true,
+		"sinon": true
+	},
+	"settings": {
+		"import/core-modules": ["perf_hooks"]
+	}
+}
