@@ -1,8 +1,9 @@
 # Simple-site
 
 * Clone: `git clone https://github.com/OmarQaddourah/Simple-site.git`
+* Build: `npm install`
 
-## Functional E2E Tests Via Cypress
+## Functional Tests Via Cypress
 
 * `npm run cy:run-mobile` : run headless mobile functional tests
 * `npm run cy:run-desktop` : run headless desktop functional tests
