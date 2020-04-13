@@ -1,0 +1,30 @@
+{
+    "name": "simple-site",
+    "version": "1.0.0",
+    "scripts": {
+        "cy:run-desktop": "cypress run --env userAgent=desktop",
+        "cy:run-mobile": "cypress run --env userAgent=mobile",
+        "cy:open-desktop": "cypress open --env userAgent=desktop",
+        "cy:open-mobile": "cypress open --env userAgent=mobile",
+        "eslint": "eslint ./test"
+    },
+    "keywords": [],
+    "author": "Omar Qaddourah",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OmarQaddourah/Simple-site.git"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "cypress": "^4.3.0",
+        "eslint": "^6.8.0"
+    },
+    "dependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.19.0",
+        "mocha": "^7.1.1"
+    }
+}

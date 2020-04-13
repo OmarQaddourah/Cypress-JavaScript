@@ -1,0 +1,10 @@
+{
+    "integrationFolder": "test/cypress/integration",
+    "chromeWebSecurity": false,
+    "fixturesFolder": "test/cypress/fixtures",
+    "pluginsFile": "test/cypress/plugins",
+    "supportFile": "test/cypress/support",
+    "video": false,
+    "baseUrl": "https://www.google.com",
+    "defaultCommandTimeout": 10000
+}
