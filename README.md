@@ -12,6 +12,10 @@
     * Do not run multiple instances at the same time!
 * Cypress configuration file can be found in `/cypress.json`
 
+## E2E Tests
+
+* `npm run e2e` : run end to end tests
+
 ### Lint
 
 * `npm run eslint` : run eslint

@@ -6,6 +6,7 @@
         "cy:run-mobile": "cypress run --env userAgent=mobile",
         "cy:open-desktop": "cypress open --env userAgent=desktop",
         "cy:open-mobile": "cypress open --env userAgent=mobile",
+        "e2e": "webdriver-manager update --versions.chrome 81.0.4044.92 && protractor-flake --parser protractor.parser.js --max-attempts=5 -- protractor.desktop.conf.js && protractor-flake --parser protractor.parser.js --max-attempts=5 -- protractor.mobile.conf.js",
         "eslint": "eslint ./test"
     },
     "keywords": [],
@@ -21,10 +22,14 @@
     },
     "dependencies": {
         "babel-eslint": "^10.1.0",
+        "chai-as-promised": "^7.1.1",
         "eslint-config-airbnb": "^18.1.0",
         "eslint-plugin-import": "^2.20.2",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.19.0",
-        "mocha": "^7.1.1"
+        "mocha": "^7.1.1",
+        "protractor": "^5.4.3",
+        "protractor-flake": "^4.0.0",
+        "webdriver-manager": "^12.1.7"
     }
 }
