@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "babel-eslint": "^10.1.0",
+        "chai-as-promised": "^7.1.1",
         "eslint-config-airbnb": "^18.1.0",
         "eslint-plugin-import": "^2.20.2",
         "eslint-plugin-jsx-a11y": "^6.2.3",
