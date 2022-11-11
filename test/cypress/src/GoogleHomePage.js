@@ -3,7 +3,7 @@ import BasePage from './BasePage';
 export class GoogleHomePage extends BasePage {
   // common locators
 
-  googleCenterLogo = 'div > img';
+  googleCenterLogo = 'img[alt="Google"]';
 
   path = '/';
 }

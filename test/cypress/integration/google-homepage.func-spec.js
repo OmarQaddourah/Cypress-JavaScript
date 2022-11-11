@@ -1,6 +1,5 @@
 /* global cy */
 
-import { expect } from 'chai';
 import { google } from '../src/GoogleHomePage';
 
 describe('Desktop Google Homepage Functional Checks', () => {
